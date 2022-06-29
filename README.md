@@ -12,13 +12,8 @@
     
 </table>
 </div>
-
-<div align="center">
-<span style="font-weight:bold;">EXAMEN FINAL</span><br />
-</div>
-
-
- <table>
+ 
+<table>
    <theader>
        <tr><th colspan="2">INFORMACIÓN BÁSICA</th></tr>
     </theader>
@@ -39,7 +34,7 @@
 </<tr>
 
 
-</<tr>
+<tr>
 <tr><td colspan="2">DOCENTE:
     <ul>
         <li>Richart Smith Escobedo Quispe  - r.escobedo@ulasalle.edu.pe</li>
@@ -75,10 +70,11 @@
 ### MARCO CONCEPTUAL
 
 -   Patrón Builder
-    -   Este es un patrón bastante simple pero muy útil, el cual nos permite crear objetos complejos a través de uno más simple.
+    -   Este patrón de diseño creacional nos permite construir objetos complejos paso a paso.
+    - Separa la construcción de una fábrica compleja de su representación para que el mismo proceso de construcción pueda crear diferentes representaciones.
 
 -   Estructura del patrón de diseño Builder
-    ![PATRON-BUILDER-ESTRUCTURA](imagenes/patron_builder_estructura.jpg)
+    ![alt text](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_estructura.JPG)
     - Fig. 1. Estructura del patrón de diseño Builder.
 
 -   Diagrama de secuencia del patrón Builder.
@@ -93,7 +89,7 @@
     ![PATRON-BUILDER-ESCENARIO](imagenes/patron_builder_escenario2.jpg)
     - Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder.
 
--   La implementación.
+-   La implementación
     ![PATRON-BUILDER-IMPLEMENTACION](imagenes/patron_builder_implementacion.jpg)
     - Fig. 5. Diagrama de clases del proyecto Builder.
 
@@ -106,6 +102,13 @@
 ## EJERCICIO RESUELTO
 
 ...
+
+
+
+## FRAMEWORK
+
+- referencia donde el patrón se da 
+- Entorno de programacion realista 
 
 
 ## EJERCICIOS PROPUESTOS
