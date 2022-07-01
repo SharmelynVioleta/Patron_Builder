@@ -127,7 +127,9 @@
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG" />   
     
-    Fig. 5. Creación de paquetes en Java [1].
+    <span> 
+            Fig. 5. Creación de paquetes en Java [1].
+    </span>
     </p>
 
     Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos.   La Clase UsuarioBuilder
