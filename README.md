@@ -217,7 +217,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee.jpg" />  
     <div align="center"> 
     Fig. 13.   [1].
     </div>     
@@ -227,7 +227,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder.jpg" />  
     <div align="center"> 
     Fig. 14.   [1].
     </div>     
@@ -237,7 +237,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2.jpg" />  
     <div align="center"> 
     Fig. 15.   [1].
     </div>     
@@ -247,7 +247,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2.jpg" />  
     <div align="center"> 
     Fig. 16.   [1].
     </div>     
@@ -257,7 +257,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2.jpg" />  
     <div align="center"> 
     Fig. 17.   [1].
     </div>     
@@ -267,22 +267,59 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.jpg" />  
     <div align="center"> 
     Fig. 18.   [1].
     </div>     
     </p>
 
 6. EJECUCIÓN
-    ![PATRON-BUILDER-EJECUCION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_ejecucion.jpg)
 
-    - Fig. 5. Resultado de la ejecución de la clase BuilderMain [1].
+    - Ejecucion 
+
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ejecucion_patron_builder_ejercicio2.jpg" />  
+    <div align="center"> 
+    Fig. 19.   [1].
+    </div>     
+    </p>
+
+
+    - Fig. 19. Resultado de la ejecución de la clase BuilderMain [1].
 
 7. FRAMEWORK
 
 - referencia donde el patrón se da 
 - Entorno de programacion realista 
- 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.png" />  
+    <div align="center"> 
+    Fig. 19.   [3].
+    </div>     
+    </p>
+
+- FRAMEWORK2
+
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.png" />  
+    <div align="center"> 
+    Fig. 20.   [3].
+    </div>     
+    </p>
+
+- FRAMEWORK3
+
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.png" />  
+    <div align="center"> 
+    Fig. 20.   [3].
+    </div>     
+    </p>
+
 
 ## REFERENCIAS
 - [1]  Oscar J Blancarte Iturralde. Introducción a los patrones de diseño_ Un enfoque práctico (Spanish Edition. CreateSpace Independent Publishing Platform (2016)

@@ -26,5 +26,12 @@ public class BuilderMain {
                 .setGender("Female")
                 .build();
         System.out.println(emp1);
+        
+        
+        System.out.println("\nTERCER EJEMPLO: ");   
+        Employee emp2 = new Employee.EmployeeBuilder()
+                .addPhones("956874598", null, "Personal")
+                .build();
+        System.out.println(emp2);
     }
 }
