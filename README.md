@@ -217,7 +217,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee.png" />  
     <div align="center"> 
     Fig. 13.   [1].
     </div>     
@@ -227,7 +227,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder.png" />  
     <div align="center"> 
     Fig. 14.   [1].
     </div>     
