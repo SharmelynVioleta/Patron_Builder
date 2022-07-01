@@ -16,30 +16,24 @@ public class Usuario {
 		this.telefono = builder.telefono;
 		this.direccion = builder.direccion; 
 	}
-	
 	public int getId () {
 		return id; 
-	}
-		
+	}	
 	public String getNombre () {
 		return nombre; 
-	}
-	
+	}	
 	public String getApellido () {
 		return apellido; 
-	}
-	
+	}	
 	public int getEdad () {
 		return edad;
 	}
-	
 	public int getTelefono() {
 		return telefono;
 	}
 	public String getDireccion() {
 		return direccion;
 	}
-	
 	@Override 
 	public String toString () {
 		return "User: " + this.id + " , " + this.nombre+ " , " + 
@@ -74,9 +68,8 @@ public class Usuario {
 		}
 		//Retorna el constructor final del objeto Usuario
 		public Usuario build() {
-			Usuario usuario =  new Usuario(this);
+			Usuario usuario =  new Usuario(this);  
 			return usuario;
 		}
-
 	} 
 }

@@ -70,7 +70,7 @@
 ### MARCO CONCEPTUAL
 
 1. PATRÓN BUILDER:
-    El patrón builder, es un patrón de diseño creacional que construye objetos complejos de una manera muy sencilla. Si una clase necesita construir algo complejo como una secuencialidad, usamos este patrón, debido a que, una clase especial se dedica a construir el objeto. Gracias a los frameworks, este patrón tiene más auge. 
+    El patrón builder, es un patrón de diseño creacional que construye objetos complejos de una manera muy sencilla. Crea objetos de forma dinámica. Si una clase necesita construir algo complejo como una secuencialidad, usamos este patrón, debido a que, una clase especial se dedica a construir el objeto. Gracias a los frameworks, este patrón tiene más auge.  
 
 2. ESTRUCTURA DEL PATRÓN DE DISEÑO BUILDER  
 
@@ -136,18 +136,37 @@
     </div>     
     </p>
 
-    Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos.   La Clase UsuarioBuilder
+    Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos. La Clase UsuarioBuilder la que construye a partir de la clase Usuario. La clase Main, instancia a través de la clase UsuarioBuilder. UsuarioBuilder es una clase interna de la Clase Usuario, por ello accede a los atributos pruvados, sin necesidad de los setters. 
 
 
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_ejercicio1.JPG)
-    Fig. 6. Creación de la Clase Usuario [1].
+   <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_ejercicio1.JPG" />  
+    <div align="center"> 
+    Fig. 6. Diagrama de clases del ejercicio sencillo.
+    </div>     
+    </p>
+ 
+    En la Fig.7, se muestra la creación de los atributos privados de la clase Usuario. Se crea el constructor haciendo uso de la clase interna estática UsuarioBuilder. Se crean los getters, los cuales se retornan a sí mismos. El método toString, sobreescribe la cadena que se desea mostrar en pantalla. 
 
+    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/1patron_builder_ejercicio1.JPG)
+    Fig. 7. Creación de atributos y de los getters de los atributos de la clase Usuario.
+
+    En la Fig.8, se muestra la creación de la clase interna estática UsuarioBuilder. Se definen los atributos requeridos con la palabra reservada "final". Creamos el contructor de estos campos requeridos (id, nombre, apellido). Los métodos opcionales (edad, telefono, direccion) se retornan a sí mismos.
+    Finalmente tenemos el método  "build" de la Clase Usuario donde instanciamos un usuario el cual tiene acceso a todos los atributos de la clase Usuario.
 
     ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio1.JPG)
-    Fig. 7. Creación de los getters de los atributos de la clase Usuario [1].
+    Fig. 8. Creación de la clase estática UsuarioBuilder.
 
-    ![PATRON-BUILDER-IMPLEMENTACION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_implementacion.JPG)
-    - Fig. 5. Diagrama de clases del proyecto Builder [1].
+    En la Fig. 9, Creamos la clase Main, la cual ejecutará los diferentes objetos. En el objeto usuario se colocarán los campos requeridos y los campos opcionales.
+    En el objeto usuario2 se colocarán los campos requeridos, se llenarán dos campos opcionales, sin importar el orden. En el objeto usuario3 se colocarán los campos requeridos mas no los campos opcionales.
+
+    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/3patron_builder_ejercicio1.JPG)
+    - Fig. 9. Creación de la clase Main.
+
+    En la Fig. 10, podemos ver a ejecución del programa, en el primer usuario, se llenaron todos los campos. El segundo usuario, muestrala información en orden, con los datos requeridos y algunos opcionales. El tercer usuario muestra la informacion de los campos requeridos y se muestran los campos opcionales con el valor de 0 en el caso de un tipo de dato "int", y con null, en el tipo de dato "String". 
+
+    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/4patron_builder_ejercicio1.JPG)
+    - Fig. 10. Ejecución de la clase Main.
 
 6. EJECUCIÓN
     ![PATRON-BUILDER-EJECUCION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_ejecucion.jpg)
