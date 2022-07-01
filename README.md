@@ -127,6 +127,8 @@
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG" />   
     
+
+    
     <span> 
             Fig. 5. Creación de paquetes en Java [1].
     </span>
