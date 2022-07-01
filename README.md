@@ -58,21 +58,21 @@
 - Aprender el patrón Builder.
 
 ### TEMAS
--   El Patrón Builder
--   Estructura del patrón de diseño Builder.
--   Diagrama de secuencia del patrón Builder.
--   Escenario.
--   Implementación.
--   Ejecución.
+1.  El Patrón Builder
+2.  Estructura del patrón de diseño Builder.
+3.  Diagrama de secuencia del patrón Builder.
+4.  Escenario.
+5.  Implementación.
+6.  Ejecución.
 
 ## CONTENIDO DE LA GUÍA
 
 ### MARCO CONCEPTUAL
 
-####  PATRÓN BUILDER
+1. PATRÓN BUILDER
     El patrón builder, es un patrón de diseño creacional que construye objetos complejos de una manera muy sencilla. Si una clase necesita construir algo complejo como una secuencialidad, usamos este patrón, debido a que, una clase especial se dedica a construir el objeto. Gracias a los frameworks, este patrón tiene más auge. 
 
-#### ESTRUCTURA DEL PATRÓN DE DISEÑO BUILDER  
+2. ESTRUCTURA DEL PATRÓN DE DISEÑO BUILDER  
 
     ![alt text](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_estructura.JPG)
      Fig. 1. Estructura del patrón de diseño Builder [1].
@@ -87,7 +87,7 @@
         - OtherObjets: Son los posibles objetos que pueden crearse cuando el ObjectBuilder construye el TarjetObjet.
 
 
-#### DIAGRAMA DE SECUENCIA DEL PATRÓN BUILDER
+3. DIAGRAMA DE SECUENCIA DEL PATRÓN BUILDER
     - A continuacuión se muestra el diagrama de secuencia del patrón Builder. Ver Fig. 2.  
 
     ![PATRON-BUILDER-SECUENCIA](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_secuencia.JPG)
@@ -106,7 +106,7 @@
 
     Podemos mostrar al usuario un objeto simple en vez de mostrar la complejidad en la creacion de objetos.
  
-#### ESCENARIO
+4.  ESCENARIO
 
     Se tomará como ejemplo a un Empleado. Como atributos puede tener: nombre, edad, género, telefono, direccion y contactos. Para ello crearemos un Builder, este nos permitirá crear la clase Empleado de mánera ágil y limpia.  La ventaja de crear un Builder, es que,  nos permite dejar de lado la lógica de programación, el orden de los atributos y la asociación entre objetos. En la Fig. 3, se muestra el flujo de ejecución entre el cliente y el empleado, sin hacer uso del patrón de diseño Builder. El cliente crea cada objeto en un determinado orden, no obstante, no vemos la relación entre objetos. Con ayuda del patrón Builder podemos dar solución a este problema.  
 
@@ -118,7 +118,7 @@
     ![PATRON-BUILDER-ESCENARIO2](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario2.JPG)
     Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder  [1].
 
-####  IMPLEMENTACIÓN
+5. IMPLEMENTACIÓN
     Realizaremos la implementación del Patrón de diseño Builder en el lenguaje de Programación Java. Se creó tres paquetes, tal como se muestra en la Fig. 5, en el paquete builderOBjetos se encuentran los objetos creados por el Builder, en el paquete builderPrincipal se encuentra laclase principal y la interfaz. Ambos paquetes implementan el ejercicio complejo. El paquete ejemploSencillo, implementa dos clases que nos explicarán de manera muy sencilla el uso del patrón de diseño Builder.
 
     ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG)
@@ -137,32 +137,24 @@
     ![PATRON-BUILDER-IMPLEMENTACION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_implementacion.JPG)
     - Fig. 5. Diagrama de clases del proyecto Builder [1].
 
-#### EJECUCIÓN
+6. EJECUCIÓN
     ![PATRON-BUILDER-EJECUCION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_ejecucion.jpg)
 
     - Fig. 5. Resultado de la ejecución de la clase BuilderMain [1].
 
     
-## EJERCICIO RESUELTO
+7. EJERCICIO RESUELTO
 
 ...
 
 
 
-## FRAMEWORK
+8. FRAMEWORK
 
 - referencia donde el patrón se da 
 - Entorno de programacion realista 
 
-
-## EJERCICIOS PROPUESTOS
-
--   Se han creado estructuras complejas con objetos más pequeños.
-    -   Agregue un nuevo atributo a la clase AbstractProduct para definir la tasa de impuesto que tendrá el producto, el impuesto deberá ser calculado y mostrado a nivel de paquete.
-    -   Agregues otro atributo a la clase AbstractProduct para definir la cantidad, esta cantidad deberá ser calculada a la hora de mostrar el precio del paquete.
-    -   Agregue productos para crear un paquete, podríamos agregar un producto de descuento con precio negativo.
--   Elabore los ejemplos y analice los resultados.
-
+ 
 
 ## REFERENCIAS
 - [1]  Oscar J Blancarte Iturralde. Introducción a los patrones de diseño_ Un enfoque práctico (Spanish Edition. CreateSpace Independent Publishing Platform (2016)
