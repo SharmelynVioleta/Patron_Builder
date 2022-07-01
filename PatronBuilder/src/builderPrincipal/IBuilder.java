@@ -1,5 +1,5 @@
 package builderPrincipal;
 
-public interface IBuilder {
-
+public interface IBuilder <T>{
+	public T build();
 }
