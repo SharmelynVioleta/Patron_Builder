@@ -148,25 +148,48 @@
  
     En la Fig.7, se muestra la creación de los atributos privados de la clase Usuario. Se crea el constructor haciendo uso de la clase interna estática UsuarioBuilder. Se crean los getters, los cuales se retornan a sí mismos. El método toString, sobreescribe la cadena que se desea mostrar en pantalla. 
 
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/1patron_builder_ejercicio1.JPG)
+   
+   
+   <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/1patron_builder_ejercicio1.JPG" />  
+    <div align="center"> 
     Fig. 7. Creación de atributos y de los getters de los atributos de la clase Usuario.
+    </div>     
+    </p>
+ 
 
     En la Fig.8, se muestra la creación de la clase interna estática UsuarioBuilder. Se definen los atributos requeridos con la palabra reservada "final". Creamos el contructor de estos campos requeridos (id, nombre, apellido). Los métodos opcionales (edad, telefono, direccion) se retornan a sí mismos.
     Finalmente tenemos el método  "build" de la Clase Usuario donde instanciamos un usuario el cual tiene acceso a todos los atributos de la clase Usuario.
 
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio1.JPG)
-    Fig. 8. Creación de la clase estática UsuarioBuilder.
+      
+   <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio1.JPG" />  
+    <div align="center"> 
+    Fig. 8. Creación de la clase estática UsuarioBuilder
+    </div>     
+    </p>
+ 
 
     En la Fig. 9, Creamos la clase Main, la cual ejecutará los diferentes objetos. En el objeto usuario se colocarán los campos requeridos y los campos opcionales.
     En el objeto usuario2 se colocarán los campos requeridos, se llenarán dos campos opcionales, sin importar el orden. En el objeto usuario3 se colocarán los campos requeridos mas no los campos opcionales.
 
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/3patron_builder_ejercicio1.JPG)
-    - Fig. 9. Creación de la clase Main.
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/3patron_builder_ejercicio1.JPG" />  
+    <div align="center"> 
+    Fig. 9. Creación de la clase Main.
+    </div>     
+    </p>
+    
 
     En la Fig. 10, podemos ver a ejecución del programa, en el primer usuario, se llenaron todos los campos. El segundo usuario, muestrala información en orden, con los datos requeridos y algunos opcionales. El tercer usuario muestra la informacion de los campos requeridos y se muestran los campos opcionales con el valor de 0 en el caso de un tipo de dato "int", y con null, en el tipo de dato "String". 
 
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/4patron_builder_ejercicio1.JPG)
-    - Fig. 10. Ejecución de la clase Main.
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/4patron_builder_ejercicio1.JPG" />  
+    <div align="center"> 
+    Fig. 10. Ejecución de la clase Main.
+    </div>     
+    </p>
+ 
 
 6. EJECUCIÓN
     ![PATRON-BUILDER-EJECUCION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_ejecucion.jpg)
