@@ -46,9 +46,6 @@
 
 # Patrón Builder
  
-[![Git][Git]][git-site]
-[![GitHub][GitHub]][github-site]
-[![Java][Java]][java-site]
 
 #
 
