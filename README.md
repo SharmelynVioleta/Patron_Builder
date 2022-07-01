@@ -237,7 +237,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
     Fig. 15.   [1].
     </div>     
@@ -247,7 +247,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
     Fig. 16.   [1].
     </div>     
@@ -257,7 +257,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
     Fig. 17.   [1].
     </div>     
@@ -267,7 +267,7 @@
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.JPG" />  
     <div align="center"> 
     Fig. 18.   [1].
     </div>     
@@ -279,7 +279,7 @@
 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ejecucion_patron_builder_ejercicio2.jpg" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ejecucion_patron_builder_ejercicio2.JPG" />  
     <div align="center"> 
     Fig. 19.   [1].
     </div>     
@@ -294,7 +294,7 @@
 - Entorno de programacion realista 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.png" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.PNG" />  
     <div align="center"> 
     Fig. 19.   [3].
     </div>     
@@ -304,7 +304,7 @@
 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.png" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.PNG" />  
     <div align="center"> 
     Fig. 20.   [3].
     </div>     
@@ -314,7 +314,7 @@
 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.png" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.PNG" />  
     <div align="center"> 
     Fig. 20.   [3].
     </div>     
