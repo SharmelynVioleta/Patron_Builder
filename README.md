@@ -286,7 +286,7 @@
 7. FRAMEWORK
 
  
-- Aqui referenciamos el patrón de diseño Builder del framework Laravel, en el lenguaje PHP. Un entorno de programación realista del patrón Builder es la construcción de un carro. Para ello se creó un  constructor llamado CarBuilder. Devuelve un objeto que implementa la interfaz Car. Los métodos start() y break() se definen en CarBuilderInterface. Ver Fig. 19.
+- Aqui referenciamos el patrón de diseño Builder del framework Laravel, en el lenguaje PHP. Un entorno de programación realista del patrón Builder es la construcción de un carro. Para ello se creó una clase llamada CarBuilder. Ver Fig. 19. Devuelve un objeto que implementa la interfaz Car. Los métodos start() y break() se definen en CarBuilderInterface. Ver Fig. 20.
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.JPG" />  
@@ -294,14 +294,21 @@
     Fig. 19. Implementando la clase CarBuilder [3].
     </div>     
     </p>
-
-- Si se desea hacer un carro nuevo, primero tenemos que crear un objeto de la clase CarBuilder y luego crear un carro nuevo usando builder que devuelve la instancia Car. Ver fig. 20.
-
-
+    
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.JPG" />  
     <div align="center"> 
-    Fig. 20. Creando un objeto de la clase CarBuilder  [3].
+    Fig. 20. Definiendo la interfaz CarBuilderInterface [3].
+    </div>     
+    </p>
+
+- Si se desea hacer un carro nuevo, primero tenemos que crear un objeto de la clase CarBuilder y luego crear un carro nuevo usando builder que devuelve la instancia Car. Ver fig. 21.
+
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.JPG" />  
+    <div align="center"> 
+    Fig. 21. Creando un objeto de la clase CarBuilder  [3].
     </div>     
     </p>
 
