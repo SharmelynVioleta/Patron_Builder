@@ -110,10 +110,16 @@
 
     Se tomará como ejemplo a un Empleado. Como atributos puede tener: nombre, edad, género, telefono, direccion y contactos. Para ello crearemos un Builder, este nos permitirá crear la clase Empleado de mánera ágil y limpia.  La ventaja de crear un Builder, es que,  nos permite dejar de lado la lógica de programación, el orden de los atributos y la asociación entre objetos. En la Fig. 3, se muestra el flujo de ejecución entre el cliente y el empleado, sin hacer uso del patrón de diseño Builder. El cliente crea cada objeto en un determinado orden, no obstante, no vemos la relación entre objetos. Con ayuda del patrón Builder podemos dar solución a este problema.  
 
-    ![PATRON-BUILDER-ESCENARIO](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario.JPG)
+ 
+    <p align="center"> 
+        <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario.JPG" />   
     
-    
-    Fig. 3. Flujo de ejecución sin utilizar el patrón de diseño Builder  [1].
+        <div> 
+                Fig. 3. Flujo de ejecución sin utilizar el patrón de diseño Builder  [1].
+        </div>
+    </p>
+
+
 
     En la Fig. 4, se creó el objeto Builder, el cual está entre el cliente y el empleado. De tal manera que el Cliente, se comunica únicamente con el Builder, y este puede crear al Empleado. Es así que el cliente, desconoce la estructura del Empleado, el orden y la relación entre ellos.  
 
@@ -128,10 +134,10 @@
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG" />   
     
 
-    
-    <span> 
+
+    <div> 
             Fig. 5. Creación de paquetes en Java [1].
-    </span>
+    </div>
     </p>
 
     Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos.   La Clase UsuarioBuilder
