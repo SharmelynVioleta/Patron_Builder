@@ -72,15 +72,11 @@ public class Usuario {
 			this.direccion = direccion;
 			return this;
 		}
-		//Return the finally consrcuted User object
+		//Retorna el constructor final del objeto Usuario
 		public Usuario build() {
 			Usuario usuario =  new Usuario(this);
-			validandoObjetoUsuario(usuario);
 			return usuario;
 		}
-		private void validandoObjetoUsuario(Usuario usuario) {
-			//Do some basic validations to check
-			//if user object does not break any assumption of system
-		}
+
 	} 
 }

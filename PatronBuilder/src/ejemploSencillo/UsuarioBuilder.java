@@ -23,24 +23,9 @@ public  class UsuarioBuilder {
 		//No edad
 		//No telefono
 		//no direccion
-	//	.telefono(951265879)
-	//	.edad(15)
 		.build();
 
-		System.out.println(usuario3);
-		
-		
-		//una variable final de referencia
-        final StringBuilder cadena=new StringBuilder("Java");
-        System.out.println(cadena);
-        //cambiando estado interno de referencia del objeto
-        //por variable de referencia final 'cadena'
-        cadena.append("desdeCero");
-        System.out.println(cadena);
-		
-		
-		
-		
+		System.out.println(usuario3);	
 	}
 }
 

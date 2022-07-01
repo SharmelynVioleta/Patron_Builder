@@ -69,7 +69,7 @@
 
 ### MARCO CONCEPTUAL
 
-1. PATRÓN BUILDER
+1. PATRÓN BUILDER:
     El patrón builder, es un patrón de diseño creacional que construye objetos complejos de una manera muy sencilla. Si una clase necesita construir algo complejo como una secuencialidad, usamos este patrón, debido a que, una clase especial se dedica a construir el objeto. Gracias a los frameworks, este patrón tiene más auge. 
 
 2. ESTRUCTURA DEL PATRÓN DE DISEÑO BUILDER  
@@ -88,7 +88,7 @@
 
 
 3. DIAGRAMA DE SECUENCIA DEL PATRÓN BUILDER
-    - A continuacuión se muestra el diagrama de secuencia del patrón Builder. Ver Fig. 2.  
+    - A continuación se muestra el diagrama de secuencia del patrón Builder. Ver Fig. 2.  
 
     ![PATRON-BUILDER-SECUENCIA](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_secuencia.JPG)
     Fig. 2.  Diagrama de secuencia del patrón de diseño Builder [1]. 
@@ -102,29 +102,29 @@
         o ObjectBuilder crear el OtherObjectB.
    - El cliente solicita al ObjectBuilder la creación del TargetObject. Este retorna el TargetObject con los objetos creados.
 
-    Podemos usar este ptarón  cuando creemos objetos complejos, de esta manera evitamos codigo repetido. 
+    Podemos usar este patrón  cuando creemos objetos complejos, de esta manera evitamos codigo repetido. 
 
-    Podemos mostrar al usuario un objeto simple en vez de mostrar la complejidad en la creacion de objetos.
+    Podemos mostrar al usuario un objeto simple en vez de mostrar la complejidad en la creación de objetos.
  
 4.  ESCENARIO
 
     Se tomará como ejemplo a un Empleado. Como atributos puede tener: nombre, edad, género, telefono, direccion y contactos. Para ello crearemos un Builder, este nos permitirá crear la clase Empleado de mánera ágil y limpia.  La ventaja de crear un Builder, es que,  nos permite dejar de lado la lógica de programación, el orden de los atributos y la asociación entre objetos. En la Fig. 3, se muestra el flujo de ejecución entre el cliente y el empleado, sin hacer uso del patrón de diseño Builder. El cliente crea cada objeto en un determinado orden, no obstante, no vemos la relación entre objetos. Con ayuda del patrón Builder podemos dar solución a este problema.  
 
     ![PATRON-BUILDER-ESCENARIO](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario.JPG)
-     Fig. 3. Flujo de ejecución sin utilizar el patrón de diseño Builder  [1].
+    Fig. 3. Flujo de ejecución sin utilizar el patrón de diseño Builder  [1].
 
     En la Fig. 4, se creó el objeto Builder, el cual está entre el cliente y el empleado. De tal manera que el Cliente, se comunica únicamente con el Builder, y este puede crear al Empleado. Es así que el cliente, desconoce la estructura del Empleado, el orden y la relación entre ellos.  
 
     ![PATRON-BUILDER-ESCENARIO2](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario2.JPG)
-    Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder  [1].
+      Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder  [1].
 
 5. IMPLEMENTACIÓN
     Realizaremos la implementación del Patrón de diseño Builder en el lenguaje de Programación Java. Se creó tres paquetes, tal como se muestra en la Fig. 5, en el paquete builderOBjetos se encuentran los objetos creados por el Builder, en el paquete builderPrincipal se encuentra laclase principal y la interfaz. Ambos paquetes implementan el ejercicio complejo. El paquete ejemploSencillo, implementa dos clases que nos explicarán de manera muy sencilla el uso del patrón de diseño Builder.
 
     ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG)
-    Fig. 5. Creación de paquetes en Java [1].
+      Fig. 5. Creación de paquetes en Java [1].
 
-    Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos. Ver Fig. 7.  
+    Para explicar el ejemplo sencillo, se realizó un diagrama de clases. Ver Fig. 6. Se observan dos clases: la clase Usuario y la clase UsuarioBuilder. La Clase Usuario almacena los atributos privados y los getters de los atributos.   La Clase UsuarioBuilder
 
 
     ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_ejercicio1.JPG)
@@ -154,6 +154,8 @@
 - referencia donde el patrón se da 
 - Entorno de programacion realista 
 
+9. CONCLUSIONES
+    ventajas 
  
 
 ## REFERENCIAS

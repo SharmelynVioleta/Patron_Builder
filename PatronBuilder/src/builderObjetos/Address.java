@@ -1,14 +1,10 @@
 package builderObjetos;
 
-
 public class Address {
     private String address;
     private String city;
     private String country;
     private String cp;
-
-    public Address() {
-    }
 
     public Address(String address, String city, String country, String cp) {
         this.address = address;
@@ -17,8 +13,6 @@ public class Address {
         this.cp = cp;
     }
     
-    
-
     public String getAddress() {
         return address;
     }
