@@ -85,8 +85,8 @@ public class Employee {
             this.age = age;
             return this;
         }
-        public EmployeeBuilder setGender(String gnero) {
-            this.gender = gnero;  
+        public EmployeeBuilder setGender(String gender) {
+            this.gender = gender; //asigna el valor enviado por el usuario
             return this;  
         }
         public EmployeeBuilder setAdress(String address, String city, 
@@ -98,7 +98,9 @@ public class Employee {
                 String phoneType) {
             phones.add(new Phone(phoneNumber, ext, phoneType));
             return this;
-        } 
+        }
+        
+        //contacts. add 
         public EmployeeBuilder addContacs(String name, String phoneNumber, 
                 String ext, String phoneType,String address, String city, 
                 String country, String cp) {

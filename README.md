@@ -213,70 +213,68 @@
     </div>     
     </p>
 
-    - Clase Employee: En esta clase se creará 
- 
+    - Clase Employee: En esta clase se crearán atributos privados y los  métodos getters. Ver Fig. 13. En la línea 10, declaramos una variable address de tipo Address. En la línea 11, declaramos una variable phones de tipo Phone. En la línea 12, declaramos una variable contacs de tipo Contact. De momento solo hemos declarado estas variables que almacenarán al objeto.  
+    En esta clase se creará una clase estática interna EmployeeBuilder, la cual implementa el patrón de diseño Builder. 
+
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee.png" />  
     <div align="center"> 
-    Fig. 13.   [1].
+    Fig. 13. Creación de la clase Employee [1].
     </div>     
     </p>
 
- - Clase EmployeeBuilder: En esta clase se creará 
+    - Clase EmployeeBuilder: Esta clase tiene los métodos que nos permiten establecer los atributos del empleado, los cuales retornarán una instancia de sí mismo. Esta clase implementará la interfaz IBuilder, por lo que también debe implementar el método build, el cual crea el empleado. Ver Fig. 14. En la línea 75 y en la línea 76 se setearán listas vacias por defecto,  que almacenarán Phones y Contact respectivamente. Los métodos setName, setAge, setGender retornarán una instancia de sí mismos, al igual que los métodos setAdress, addPhones,addContacs. Estos tres últimos son empaquetadas. 
  
-
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder.png" />  
     <div align="center"> 
-    Fig. 14.   [1].
+    Fig. 14. Creación de la clase interna estática EmployeeBuilder [1].
     </div>     
     </p>
 
- - Clase Addres: En esta clase se creará 
+    - Clase Addres: Esta clase tiene como atributos la direccion, ciudad, país y código postal de un empleado o de un contacto. Ver Fig. 15.
  
-
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
-    Fig. 15.   [1].
+    Fig. 15. Creación de la clase Addres [1].
     </div>     
     </p>
 
- - Clase Contact: En esta clase se creará 
- 
+    - Clase Contact: En esta clase se guarda el contacto de un empleado. Define los atributos como:  nombre, telefono y direccion. Existe una sobrecarga de constructores. Un constructor que contiene todods los parametros necesarios, y otro sin parámetros. La clase Contact usa a la clase Phone y a la clase AddresS, a esto se le denomina inversión de dependencia, debido a que es independiente de los detalles de implementación de las otras clases. Ver Fig. 16.
 
+ 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
-    Fig. 16.   [1].
+    Fig. 16.  Creación de la clase Contact [1].
     </div>     
     </p>
 
- - Clase Phone: En esta clase se creará 
- 
+    - Clase Phone: Esta clase tiene como atributos el número de teléfono, extension, y tipo de teléfono.  Ver Fig. 17.
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2.JPG" />  
     <div align="center"> 
-    Fig. 17.   [1].
+    Fig. 17.  Creación de la clase Phone [1].
     </div>     
     </p>
 
- - Clase BuilderMain: En esta clase se creará 
- 
+    - Clase BuilderMain: Finalmente creamos la clase Main, la cual ejecutará los diferentes objetos. Iniciamos con la creacion del empleado. La clase EmployeBuilder, gracias a sus métodos, permite establecer varias propiedades. Al terminar de mandar instrucciones, lo que hacemos es llamar al método "build" el cual creará la instancia del empleado. Ver Fig. 18.
+
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.JPG" />  
     <div align="center"> 
-    Fig. 18.   [1].
+    Fig. 18. Creación de la clase BuilderMain  [1].
     </div>     
     </p>
+ 
 
 6. EJECUCIÓN
 
-    - Ejecucion 
-
+    -  La ventaja de usar este patrón de diseño Builder es que no es necesario dar valores a todas los parámetros, y tampoco importa el orden. Ver Fig. 19.
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ejecucion_patron_builder_ejercicio2.JPG" />  
@@ -290,33 +288,23 @@
 
 7. FRAMEWORK
 
-- referencia donde el patrón se da 
-- Entorno de programacion realista 
+ 
+- Aqui referenciamos el patrón de diseño Builder del framework Laravel, en el lenguaje PHP. Un entorno de programación realista del patrón Builder es la construcción de un carro. Para ello se creó un  constructor llamado CarBuilder. Devuelve un objeto que implementa la interfaz Car. Los métodos start() y break() se definen en CarBuilderInterface. Ver Fig. 19.
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.JPG" />  
     <div align="center"> 
-    Fig. 19.   [3].
+    Fig. 19. Implementando la clase CarBuilder [3].
     </div>     
     </p>
 
-- FRAMEWORK2
+- Si se desea hacer un carro nuevo, primero tenemos que crear un objeto de la clase CarBuilder y luego crear un carro nuevo usando builder que devuelve la instancia Car. Ver fig. 20.
 
 
     <p align="center"> 
     <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.JPG" />  
     <div align="center"> 
-    Fig. 20.   [3].
-    </div>     
-    </p>
-
-- FRAMEWORK3
-
-
-    <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.JPG" />  
-    <div align="center"> 
-    Fig. 20.   [3].
+    Fig. 20. Creando un objeto de la clase CarBuilder  [3].
     </div>     
     </p>
 
