@@ -122,10 +122,13 @@
 
     En la Fig. 4, se creó el objeto Builder, el cual está entre el cliente y el empleado. De tal manera que el Cliente, se comunica únicamente con el Builder, y este puede crear al Empleado. Es así que el cliente, desconoce la estructura del Empleado, el orden y la relación entre ellos.  
 
-    ![PATRON-BUILDER-ESCENARIO2](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario2.JPG)
-    
-    
-    Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder  [1].
+   <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_escenario2.JPG" />  
+    <div align="center"> 
+    Fig. 4. Flujo de ejecución utilizando el patrón de diseño Builder [1].
+    </div>     
+    </p>
+ 
 
 5. IMPLEMENTACIÓN
     Realizaremos la implementación del Patrón de diseño Builder en el lenguaje de Programación Java. Se creó tres paquetes, tal como se muestra en la Fig. 5, en el paquete builderOBjetos se encuentran los objetos creados por el Builder, en el paquete builderPrincipal se encuentra laclase principal y la interfaz. Ambos paquetes implementan el ejercicio complejo. El paquete ejemploSencillo, implementa dos clases que nos explicarán de manera muy sencilla el uso del patrón de diseño Builder.
@@ -190,7 +193,7 @@
     </div>     
     </p>
  
-    Ahora se pasará a explicar el paquete builderObjetos y el paquete builderPrincipal. En el paquete builderPrincipal, se encuentran la clase principal y la interface que creará los Builders. En el paquete builderObjetos, se encuentran los objetos creados por el Builder. En la Fig. 11, se muestra el diagrama de clases para nuestro escenario Empleado.
+    Ahora se pasará a explicar el ejemplo complejo. En la Fig. 11, se muestra el diagrama de clases para nuestro escenario Empleado. 
 
 
     <p align="center"> 
@@ -210,13 +213,63 @@
     </div>     
     </p>
 
-    - ddfdddddgdgf
+    - Clase Employee: En esta clase se creará 
  
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.JPG" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employee" />  
     <div align="center"> 
-    Fig. 13. Interfaz [1].
+    Fig. 13.   [1].
+    </div>     
+    </p>
+
+ - Clase EmployeeBuilder: En esta clase se creará 
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_employeeBuilder" />  
+    <div align="center"> 
+    Fig. 14.   [1].
+    </div>     
+    </p>
+
+ - Clase Addres: En esta clase se creará 
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Apatron_builder_ejercicio2" />  
+    <div align="center"> 
+    Fig. 15.   [1].
+    </div>     
+    </p>
+
+ - Clase Contact: En esta clase se creará 
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Cpatron_builder_ejercicio2" />  
+    <div align="center"> 
+    Fig. 16.   [1].
+    </div>     
+    </p>
+
+ - Clase Phone: En esta clase se creará 
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/Ppatron_builder_ejercicio2" />  
+    <div align="center"> 
+    Fig. 17.   [1].
+    </div>     
+    </p>
+
+ - Clase BuilderMain: En esta clase se creará 
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2" />  
+    <div align="center"> 
+    Fig. 18.   [1].
     </div>     
     </p>
 

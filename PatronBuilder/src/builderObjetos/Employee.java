@@ -72,8 +72,8 @@ public class Employee {
         private int age;
         private String gender;
         private Address adress;
-        private final List<Phone> phones = new ArrayList<>(); //listas vacias que van a tener Phones
-        private final List<Contact> contacs = new ArrayList<>(); //seteadas por defecto en listas vacias que tendrán comtactos
+        private final List<Phone> phones = new ArrayList<>();  
+        private final List<Contact> contacs = new ArrayList<>();  
 
         public EmployeeBuilder() {
         }
@@ -86,10 +86,8 @@ public class Employee {
             return this;
         }
         public EmployeeBuilder setGender(String gnero) {
-            this.gender = gnero; //asigna el valor enviado por el usuario
-            return this; //metodods que recibe nun parámetro, en este caso Steing gener
-            //congifurar el género, para ello sabemos el genero, 
-            //This: este,esta clase 
+            this.gender = gnero;  
+            return this;  
         }
         public EmployeeBuilder setAdress(String address, String city, 
                 String country, String cp) {
@@ -100,9 +98,7 @@ public class Employee {
                 String phoneType) {
             phones.add(new Phone(phoneNumber, ext, phoneType));
             return this;
-        }
-        
-        //contacts. add 
+        } 
         public EmployeeBuilder addContacs(String name, String phoneNumber, 
                 String ext, String phoneType,String address, String city, 
                 String country, String cp) {
