@@ -5,7 +5,7 @@ public class BuilderMain {
 
     public static void main(String[] args) {
         Employee emp = new Employee.EmployeeBuilder()
-                .setName("Oscar Javier Blancarte Iturralde")
+        		.setName("Oscar Javier Blancarte Iturralde")
                 .setGender("Male")
                 .setAge(29)
                 .setAdress("Benito " 
@@ -18,5 +18,13 @@ public class BuilderMain {
                 .addPhones("7788990099", null, "Casa")
                 .build();
         System.out.println(emp);
+        
+        System.out.println("\nSEGUNDO EJEMPLO");   
+        
+        Employee emp1 = new Employee.EmployeeBuilder()
+        		.setName("Oscar Javier Blancarte Iturralde")
+                .setGender("Male")
+                .build();
+        System.out.println(emp1);
     }
 }

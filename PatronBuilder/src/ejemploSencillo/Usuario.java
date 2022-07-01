@@ -68,7 +68,7 @@ public class Usuario {
 		}
 		//Retorna el constructor final del objeto Usuario
 		public Usuario build() {
-			Usuario usuario =  new Usuario(this);  
+			Usuario usuario =  new Usuario(this); 
 			return usuario;
 		}
 	} 

@@ -190,32 +190,51 @@
     </div>     
     </p>
  
+    Ahora se pasará a explicar el paquete builderObjetos y el paquete builderPrincipal. En el paquete builderPrincipal, se encuentran la clase principal y la interface que creará los Builders. En el paquete builderObjetos, se encuentran los objetos creados por el Builder. En la Fig. 11, se muestra el diagrama de clases para nuestro escenario Empleado.
+
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_ejercicio2.JPG" />  
+    <div align="center"> 
+    Fig. 11. Diagrama de clases del escenario Empleado [1].
+    </div>     
+    </p>
+
+    - Interface IBuilder: Se crea una interfaz que tiene un tipo genérico "T". Posteriormente este tipo será reemplazado por el objeto que deseamos construir, en este caso Empleado. Este tipo generico "T", también es utilizado en el método build, el cual nos retornará un objeto de tipo "T". Finalmente este método es el que construirá Empleado. Ver Fig. 12.
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/1patron_builder_ejercicio2.JPG" />  
+    <div align="center"> 
+    Fig. 12. Interfaz del patrón de diseño Builder [1].
+    </div>     
+    </p>
+
+    - ddfdddddgdgf
+ 
+
+    <p align="center"> 
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/2patron_builder_ejercicio2.JPG" />  
+    <div align="center"> 
+    Fig. 13. Interfaz [1].
+    </div>     
+    </p>
 
 6. EJECUCIÓN
     ![PATRON-BUILDER-EJECUCION](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/patron_builder_ejecucion.jpg)
 
     - Fig. 5. Resultado de la ejecución de la clase BuilderMain [1].
 
-    
-7. EJERCICIO RESUELTO
-
-...
-
-
-
-8. FRAMEWORK
+7. FRAMEWORK
 
 - referencia donde el patrón se da 
 - Entorno de programacion realista 
-
-9. CONCLUSIONES
-    ventajas 
  
 
 ## REFERENCIAS
 - [1]  Oscar J Blancarte Iturralde. Introducción a los patrones de diseño_ Un enfoque práctico (Spanish Edition. CreateSpace Independent Publishing Platform (2016)
-- [2] Builder  patrón de diseño. (28 de agosto de 2021). En Wikipedia.  (https://es.wikipedia.org/w/index.php?title=Builder_(patr%C3%B3n_de_dise%C3%B1o)&oldid=137958744).
- 
 
-- [3] Builder  patrón de diseño. En refactoring.guru (https://refactoring.guru/es/design-patterns/builder).
+- [2] Builder  patrón de diseño. (28 de agosto de 2021). En Wikipedia.  (https://es.wikipedia.org/w/index.php?title=Builder_(patr%C3%B3n_de_dise%C3%B1o)&oldid=137958744).
+
+- [3] Breve descripción del patrón de diseño utilizado en Laravel (2022). En codesource.io (https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/#:~:text=The%20Builder%20pattern%20is%20one,good%20for%20creating%20complex%20products).
  
