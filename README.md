@@ -125,9 +125,7 @@
 5. IMPLEMENTACIÓN
     Realizaremos la implementación del Patrón de diseño Builder en el lenguaje de Programación Java. Se creó tres paquetes, tal como se muestra en la Fig. 5, en el paquete builderOBjetos se encuentran los objetos creados por el Builder, en el paquete builderPrincipal se encuentra laclase principal y la interfaz. Ambos paquetes implementan el ejercicio complejo. El paquete ejemploSencillo, implementa dos clases que nos explicarán de manera muy sencilla el uso del patrón de diseño Builder.
     <p align="center"> 
-
-    ![PATRON-BUILDER-1](https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG)
-    
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/0patron_builder_implementacion.JPG" />   
     
     Fig. 5. Creación de paquetes en Java [1].
     </p>
