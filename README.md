@@ -294,7 +294,7 @@
 - Entorno de programacion realista 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.PNG" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework1.JPG" />  
     <div align="center"> 
     Fig. 19.   [3].
     </div>     
@@ -304,7 +304,7 @@
 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.PNG" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework2.JPG" />  
     <div align="center"> 
     Fig. 20.   [3].
     </div>     
@@ -314,7 +314,7 @@
 
 
     <p align="center"> 
-    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.PNG" />  
+    <img src="https://github.com/SharmelynVioleta/Patron_Builder/blob/master/imagenes/framework3.JPG" />  
     <div align="center"> 
     Fig. 20.   [3].
     </div>     
